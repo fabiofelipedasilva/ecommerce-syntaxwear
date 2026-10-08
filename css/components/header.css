@@ -10,12 +10,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10px;
+  padding: 12px 20px;
   background-color:#ffff;
 }
 
 .logo img{
     height: 48px;
+    
 }
 
 .nav-center ul{
