@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 48px;
+}
+
+p{
+    font-size: 16px;
+}
+
+main {
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px;
+    background-color: aqua;
+}
+

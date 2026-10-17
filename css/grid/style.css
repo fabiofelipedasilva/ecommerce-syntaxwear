@@ -1,0 +1,16 @@
+.container div{
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  background-color: blueviolet;
+}
+
+.container{
+  display: grid;
+  /* display: inline-grid; essa forma se ajusta com o tamanho do conteúdo, mas não é muito usada*/ 
+  grid-template-columns: auto auto; 
+  /* quando coloco auto auto ele divide o espaço em duas colunas de tamanhos automáticos */
+
+  grid-template-rows: 200px ;
+  /* quando coloco 200px ele define a altura das linhas, no caso a 1ª linha desse container */
+}

@@ -1,0 +1,57 @@
+.flex-start {
+  
+  display: flex;
+  align-content: flex-start;
+  /* flex-direction: column;  por padrão ele já aplicado como row */
+  flex-wrap: wrap;
+}
+
+.flex-end {
+  display: flex;
+  align-content: flex-end;  
+  flex-wrap: wrap;
+    /* flex-direction: column;  por padrão ele já aplicado como row */
+
+}
+
+.center {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center; /* se quiser sempre alinhar os itens tem que usar essa propriedade */
+  
+}
+
+.space-between {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.space-around {
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.space-evenly {
+    display: flex;
+    align-content: space-evenly;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stretch {
+    display: flex;   
+    flex-wrap: wrap;
+    align-content: stretch;
+     
+   
+    
+}
+    
+    
+

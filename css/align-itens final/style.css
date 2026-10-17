@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+     height: 400px;  /*altura do container para visualização */
+     border: 1px solid black;  /*borda do container para visualização */
+     width: 300px;  /*largura do container para visualização */
+}
+
+.item {
+    width: 100px;  /*largura do item para visualização */
+    height: 100px;  /*altura do item para visualização */
+    background: lightblue;
+    margin: 10px;
+}
+
+.items {
+    align-items:center
+}
+
+.content {
+    align-content:center;
+}
+
+.align-self{
+    align-self:center;
+}

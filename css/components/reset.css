@@ -51,6 +51,8 @@ a {
 
 ul,ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* make images easier to work with */
